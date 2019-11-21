@@ -18,7 +18,7 @@ yum -y install wget net-tools unzip
 #yum clean metadata
 #yum makecache
 cd /root/
-wget https://github.com/78/ssbc/archive/master.zip
+wget https://github.com/spylfy/ssbc/archive/master.zip
 unzip master.zip
 #解压后 源码在/root/ssbc-master目录
 yum -y install gcc gcc-c++ python-devel mariadb mariadb-devel mariadb-server nginx
